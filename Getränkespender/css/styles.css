@@ -1,0 +1,201 @@
+body {
+    background-color: #FFFD77;
+    color: lightseagreen;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: serif;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#complete{
+    margin: auto;
+}
+
+#top {
+    background-color: black;
+    margin: auto;
+    width: 640px;
+    height: 300px;   
+    position: relative;
+}
+
+#topbanner {
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    width: 620px;
+    background-color: red;
+    height: 180px;
+    margin: 10px;
+    position: absolute;
+}
+
+#mitte {
+    background-color: lightgrey;
+    margin: auto;
+    width: 200px;
+    height: 220px;
+    z-index: 0;
+    position: relative;
+}
+
+#bottom {
+    background-color: silver;
+    margin: auto;
+    width: 640px;
+    height: 10px;
+    border-radius: 40%;
+    position: relative;
+}
+
+#glass {
+    background-color: grey;
+    left: 55px;
+    width: 90px;
+    height: 170px;
+    opacity: 70%;
+    top: 50px;
+    z-index: 3;
+    border-radius: 0px 0px 10% 10%;
+    position: absolute;
+}
+
+/*Sorten*/
+#apfel {
+    background-color: #a7be68;
+    background-image: url(../img/apfel.jpg);
+    background-repeat: no-repeat;
+    width: 60px;
+    float: left;
+    height: 90px;
+    top: 200px;
+    position: relative;
+    margin: 0px 5px 0px 10px;
+}
+
+#cola {
+    background-color: #dd001b;
+    background-image: url(../img/cola.png);
+    background-repeat: no-repeat;
+    width: 60px;
+    float: left;
+    height: 90px;
+    top: 200px;
+    margin: 0px 5px 0px 5px;
+    position: relative;
+}
+
+#wasser {
+    background-color: lightskyblue;
+    background-image: url(../img/vio.png);
+    background-repeat: no-repeat;
+    width: 60px;
+    float: left;
+    margin: 0px 5px 0px 5px;
+    height: 90px;
+    top: 200px;
+    position: relative;
+}
+
+#mezzo {
+    background-color: #a13c29;
+    background-image: url(../img/mezzo.png);
+    background-repeat: no-repeat;
+    width: 60px;
+    float: left;
+    height: 90px;
+    top: 200px;
+    position: relative;
+    margin: 0px 5px 0px 5px;
+}
+
+#fanta {
+    background-color: orange;
+    background-image: url(../img/fanta.png);
+    background-repeat: no-repeat;
+    width: 60px;
+    float: left;
+    height: 90px;
+    top: 200px;
+    position: relative;
+    margin: 0px 5px 0px 5px;
+}
+
+#sprite {
+    background-color: white;
+    background-image: url(../img/sprite.png);
+    background-repeat: no-repeat;
+    width: 60px;
+    float: left;
+    height: 90px;
+    top: 200px;
+    position: relative;
+    margin: 0px 5px 0px 5px;
+}
+
+#ftea {
+    background-color: peachpuff;
+    background-image: url(../img/ftea.png);
+    background-repeat: no-repeat;
+    width: 60px;
+    float: left;
+    height: 90px;
+    top: 200px;
+    position: relative;
+    margin: 0px 5px 0px 5px;
+}
+
+#powerred {
+    background-color: #b21e49;
+    color: white;
+    background-image: url(../img/powerred.png);
+    background-repeat: no-repeat;
+    width: 60px;
+    float: left;
+    height: 90px;
+    top: 200px;
+    position: relative;
+    margin: 0px 5px 0px 5px;
+}
+
+#powerblue {
+    background-color: #0091cc;
+    color: white;
+    background-image: url(../img/powerblue.png);
+    background-repeat: no-repeat;
+    width: 60px;
+    float: left;
+    height: 90px;
+    top: 200px;
+    position: relative;
+    margin: 0px 5px 0px 5px;
+}
+
+
+
+.strahl {
+    background-color: white;
+    margin: auto;
+    width: 0px;
+    height: 0px;
+    z-index: 1;
+    position: relative;
+}
+
+.füllung {
+    background-color: white;
+    margin: 5px;
+    width: 80px;
+    height: 0px;
+    top: 160px;
+    z-index: 2;
+    position: relative;
+    border-radius: 0px 0px 10% 10%;
+}   
